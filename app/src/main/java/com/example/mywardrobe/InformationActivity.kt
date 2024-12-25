@@ -77,7 +77,7 @@ class InformationActivity : AppCompatActivity() {
             false
         }
         backBTN.setOnClickListener {
-            val intent=Intent(this,WardrobeItem::class.java)
+            val intent=Intent(this,WardrobeActivity::class.java)
             startActivity(intent)
         }
     }
